@@ -8,6 +8,8 @@
     object-fit: cover
 }
 
+
+
 .flex.height-fix {
     display: flex;
     flex-direction: column;
@@ -21,8 +23,7 @@
     transition: all 0.5s;
     color: aquamarine;
     text-decoration: none;
-    margin-right: 735px;
-    margin-top: 350px;
+    
 }
 
 a {
@@ -42,6 +43,11 @@ img {
     padding: 2.5px;
 }
 
+.about-img {
+    height: 200px;
+    width: 200px;
+}
+
 .text.text-light {
     text-align: left;
     text-shadow: 2px 2px black;
@@ -53,7 +59,7 @@ img {
 }
 
 .topnav {
-    background-color: rgba(127, 255, 212, 0.48);
+    background-color: rgba(127, 255, 215, 0.4);
     overflow: hidden;
     position: fixed;
     height: 50px;
